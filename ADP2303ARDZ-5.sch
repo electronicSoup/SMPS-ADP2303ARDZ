@@ -306,8 +306,6 @@ Wire Wire Line
 Connection ~ 9900 4300
 Connection ~ 8800 3800
 Connection ~ 9900 3800
-Wire Wire Line
-	6550 3600 8800 3600
 Connection ~ 8800 3600
 Wire Wire Line
 	6050 4300 6050 3800
@@ -375,4 +373,39 @@ $EndComp
 Wire Wire Line
 	9350 4100 9350 4300
 Connection ~ 9350 4300
+$Comp
+L R_Small R3
+U 1 1 5A06E760
+P 7450 3600
+F 0 "R3" H 7480 3620 50  0000 L CNN
+F 1 "R" H 7480 3560 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 7450 3600 50  0001 C CNN
+F 3 "" H 7450 3600 50  0000 C CNN
+	1    7450 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 5A06E7E0
+P 7250 3900
+F 0 "R2" H 7280 3920 50  0000 L CNN
+F 1 "R" H 7280 3860 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 7250 3900 50  0001 C CNN
+F 3 "" H 7250 3900 50  0000 C CNN
+	1    7250 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 3600 7350 3600
+Wire Wire Line
+	7550 3600 7900 3600
+Wire Wire Line
+	7900 3600 7900 3400
+Connection ~ 7900 3400
+Wire Wire Line
+	7250 3800 7250 3600
+Connection ~ 7250 3600
+Wire Wire Line
+	7250 4000 7250 4300
+Connection ~ 7250 4300
 $EndSCHEMATC
