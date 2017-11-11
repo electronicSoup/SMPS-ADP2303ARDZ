@@ -21,3 +21,7 @@ _*
 # Exported BOM files
 *.xml
 *.csv
+
+Gerber
+gerber.zip
+*rescue.lib
