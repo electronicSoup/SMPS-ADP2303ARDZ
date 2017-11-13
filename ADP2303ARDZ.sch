@@ -1,5 +1,4 @@
 EESchema Schematic File Version 3
-LIBS:ADP2303ARDZ-5-rescue
 LIBS:ac-dc
 LIBS:adc-dac
 LIBS:Altera
