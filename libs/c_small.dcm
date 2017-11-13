@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C_Small
+D Unpolarized capacitor
+K capacitor cap
+$ENDCMP
+#
+#End Doc Library
