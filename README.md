@@ -43,7 +43,7 @@ component libraries I've had to used the latest version of KiCad,
 compiled from source on my machine.
 
 Version Info:
-`
+```
 Application: kicad
 Version: (2017-11-03 revision 08a9dc0)-master, debug build
 Libraries:
@@ -66,7 +66,7 @@ Build settings:
     BUILD_GITHUB_PLUGIN=ON
     KICAD_USE_OCE=OFF
     KICAD_SPICE=OFF
-`
+```
 
 ## License
 
