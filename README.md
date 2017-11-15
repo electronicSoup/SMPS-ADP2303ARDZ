@@ -43,7 +43,7 @@ component libraries I've had to used the latest version of KiCad,
 compiled from source on my machine.
 
 Version Info:
-
+`
 Application: kicad
 Version: (2017-11-03 revision 08a9dc0)-master, debug build
 Libraries:
@@ -66,12 +66,9 @@ Build settings:
     BUILD_GITHUB_PLUGIN=ON
     KICAD_USE_OCE=OFF
     KICAD_SPICE=OFF
+`
 
 ## License
 
-As this is my first attempt at open hardware I have to do a bit of
-research on the licenses available. I'm a GPL coder so lean towards
-user freedoms, as opposed to developer freedoms. I have to look into
-that and update this readme file as required.
-
+[CERN OHL version 1.2](https://www.ohwr.org/documents/294)
 
