@@ -72,3 +72,6 @@ Build settings:
 
 [CERN OHL version 1.2](https://www.ohwr.org/documents/294)
 
+First version one input Cap 10uF No Output Cap
+
+Second Version One input Cap 10uF 

@@ -1,4 +1,4 @@
-update=Mon 13 Nov 2017 13:55:16 GMT
+update=Fri 15 Dec 2017 10:53:42 GMT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,12 +27,4 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/john/Private/es/electronics/kicad/libs/kicad-library
-[eeschema/libraries]
-LibName1=libs/adp2302ardz
-LibName2=libs/conn_01x03
-LibName3=libs/c_small
-LibName4=libs/d_schottky_small
-LibName5=libs/inductor_small
-LibName6=libs/mcp1825s
-LibName7=libs/r_small
+LibDir=

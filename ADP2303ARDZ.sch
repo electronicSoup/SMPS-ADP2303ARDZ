@@ -1,11 +1,4 @@
-EESchema Schematic File Version 3
-LIBS:adp2302ardz
-LIBS:conn_01x03
-LIBS:c_small
-LIBS:d_schottky_small
-LIBS:inductor_small
-LIBS:mcp1825s
-LIBS:r_small
+EESchema Schematic File Version 4
 LIBS:ADP2303ARDZ-cache
 EELAYER 26 0
 EELAYER END
@@ -128,7 +121,7 @@ Wire Wire Line
 	7250 4000 7250 4300
 Connection ~ 7250 4300
 $Comp
-L CONN_01X03 P1
+L conn_01x03:CONN_01X03 P1
 U 1 1 5A09A5D8
 P 4050 3000
 F 0 "P1" H 3969 2675 50  0000 C CNN
@@ -139,7 +132,7 @@ F 3 "" H 4050 3000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C1
+L c_small:C_Small C1
 U 1 1 5A09A767
 P 4850 3750
 F 0 "C1" H 4942 3796 50  0000 L CNN
@@ -150,7 +143,7 @@ F 3 "" H 4850 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L c_small:C_Small C2
 U 1 1 5A09A846
 P 5250 3750
 F 0 "C2" H 5342 3796 50  0000 L CNN
@@ -161,7 +154,7 @@ F 3 "" H 5250 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L r_small:R_Small R1
 U 1 1 5A09AB04
 P 5400 3500
 F 0 "R1" H 5459 3546 50  0000 L CNN
@@ -172,7 +165,7 @@ F 3 "" H 5400 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADP2303ARDZ-5.0 U1
+L adp2302ardz:ADP2303ARDZ-5.0 U1
 U 1 1 5A09AC83
 P 6050 3400
 F 0 "U1" H 6050 3867 50  0000 C CNN
@@ -183,7 +176,7 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L c_small:C_Small C3
 U 1 1 5A09ADC8
 P 6800 3300
 F 0 "C3" H 6892 3346 50  0000 L CNN
@@ -194,7 +187,7 @@ F 3 "" H 6800 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small D1
+L d_schottky_small:D_Schottky_Small D1
 U 1 1 5A09AF2F
 P 6800 3800
 F 0 "D1" V 6754 3868 50  0000 L CNN
@@ -205,7 +198,7 @@ F 3 "" V 6800 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R2
+L r_small:R_Small R2
 U 1 1 5A09B1A3
 P 7250 3900
 F 0 "R2" H 7309 3946 50  0000 L CNN
@@ -216,7 +209,7 @@ F 3 "" H 7250 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
+L r_small:R_Small R3
 U 1 1 5A09B1FB
 P 7450 3600
 F 0 "R3" V 7254 3600 50  0000 C CNN
@@ -227,7 +220,7 @@ F 3 "" H 7450 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L INDUCTOR_SMALL L1
+L inductor_small:INDUCTOR_SMALL L1
 U 1 1 5A09B461
 P 7550 3400
 F 0 "L1" H 7550 3615 50  0000 C CNN
@@ -238,7 +231,7 @@ F 3 "" H 7550 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR_SMALL L2
+L inductor_small:INDUCTOR_SMALL L2
 U 1 1 5A09B4C5
 P 7550 3100
 F 0 "L2" H 7550 3315 50  0000 C CNN
@@ -249,7 +242,7 @@ F 3 "" H 7550 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L c_small:C_Small C4
 U 1 1 5A09B81E
 P 8000 3800
 F 0 "C4" H 8092 3846 50  0000 L CNN
@@ -260,7 +253,7 @@ F 3 "" H 8000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L c_small:C_Small C5
 U 1 1 5A09B916
 P 8450 3800
 F 0 "C5" H 8542 3846 50  0000 L CNN
@@ -271,7 +264,7 @@ F 3 "" H 8450 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C6
+L c_small:C_Small C6
 U 1 1 5A09BAED
 P 8800 4050
 F 0 "C6" H 8892 4096 50  0000 L CNN
@@ -282,7 +275,7 @@ F 3 "" H 8800 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L c_small:C_Small C7
 U 1 1 5A09BBBF
 P 9900 4050
 F 0 "C7" H 9992 4096 50  0000 L CNN
@@ -293,7 +286,7 @@ F 3 "" H 9900 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP1825S U2
+L mcp1825s:MCP1825S U2
 U 1 1 5A09BDA1
 P 9350 3800
 F 0 "U2" H 9350 4042 50  0000 C CNN
@@ -304,7 +297,7 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/22056b.pdf" H 9350 4050 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P2
+L conn_01x03:CONN_01X03 P2
 U 1 1 5A09C2B2
 P 10700 3500
 F 0 "P2" H 10778 3541 50  0000 L CNN
